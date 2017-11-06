@@ -24,7 +24,7 @@ aws_secret_access_key = <your-aws-secret-access-key>
 ```
 sudo ./vpn.sh <vpn-username> <vpn-password>
 sudo pip install -r requirements.txt
-./sethostname <route53-zone-id> <hostname>
+./sethostname.py <route53-zone-id> <hostname>
 ```
 4. setup your device as a vpn client, pointing to <hostname> authenticating with <vpn-username> and <vpn-password>
 
