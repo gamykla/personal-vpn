@@ -6,12 +6,14 @@ set up your own PPTP vpn server so that clients can IP masquerade behind it.
 2. make sure port 1723 is available to clients that will connect to the vpn host by setting appropriate firewall rules to allow this to pass.
 2. copy files from this project to that host
 3. on your vpn host make sure you have created ~/.aws/config and ~/aws/credentials
+
 config:
 ```
 [default]
 output = json
 region = us-east-1
 ```
+
 credentials:
 ```
 [default]
